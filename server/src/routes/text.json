@@ -1,0 +1,1383 @@
+[
+  {
+    "name": "yBridge",
+    "logoUrl": "https://storage.googleapis.com/xy-finance-images/XY_icon.png",
+    "supportedChains": [
+      {
+        "chainId": 1,
+        "name": "ETHEREUM",
+        "supportedTokens": [
+          {
+            "symbol": "USDT",
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDC",
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "decimals": 6
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 10,
+        "name": "OPTIMISM",
+        "supportedTokens": [
+          {
+            "symbol": "USDT",
+            "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDC",
+            "address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+            "decimals": 6
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 25,
+        "name": "CRONOS",
+        "supportedTokens": [
+          {
+            "symbol": "USDT",
+            "address": "0x66e428c3f67a68878562e79A0234c1F83c208770",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDC",
+            "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+            "decimals": 6
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xe44Fd7fCb2b1581822D0c862B68222998a0c299a",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 56,
+        "name": "BSC",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+            "decimals": 18
+          },
+          {
+            "symbol": "USDT",
+            "address": "0x55d398326f99059fF775485246999027B3197955",
+            "decimals": 18
+          },
+          {
+            "symbol": "ETH",
+            "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 108,
+        "name": "THUNDER_CORE",
+        "supportedTokens": [
+          {
+            "symbol": "USDT",
+            "address": "0x4f3C8E20942461e2c3Bdd8311AC57B0c222f2b82",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDC",
+            "address": "0x22e89898A04eaf43379BeB70bf4E38b1faf8A31e",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chainId": 137,
+        "name": "POLYGON",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDT",
+            "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "decimals": 6
+          },
+          {
+            "symbol": "ETH",
+            "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 196,
+        "name": "X_LAYER",
+        "supportedTokens": [
+          {
+            "symbol": "ETH",
+            "address": "0x5A77f1443D16ee5761d310e38b62f77f726bC71c",
+            "decimals": 18
+          },
+          {
+            "symbol": "USDT",
+            "address": "0x1E4a5963aBFD975d8c9021ce480b42188849D41d",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chainId": 250,
+        "name": "FANTOM",
+        "supportedTokens": [
+          {
+            "symbol": "USDT",
+            "address": "0x049d68029688eAbF473097a2fC38ef61633A3C7A",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDC",
+            "address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
+            "decimals": 6
+          },
+          {
+            "symbol": "ETH",
+            "address": "0x74b23882a30290451A17c44f4F05243b6b58C76d",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 321,
+        "name": "KUCOIN_CHAIN",
+        "supportedTokens": [
+          {
+            "symbol": "USDT",
+            "address": "0x0039f574eE5cC39bdD162E9A88e3EB1f111bAF48",
+            "decimals": 18
+          },
+          {
+            "symbol": "USDC",
+            "address": "0x980a5AfEf3D17aD98635F6C5aebCBAedEd3c3430",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 324,
+        "name": "ZKSYNC",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4",
+            "decimals": 6
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 592,
+        "name": "ASTAR",
+        "supportedTokens": [
+          {
+            "symbol": "USDT",
+            "address": "0x3795C36e7D12A8c252A20C5a7B455f7c57b60283",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDC",
+            "address": "0x6a2d262D56735DbA19Dd70682B39F6bE9a931D98",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chainId": 1101,
+        "name": "ZKEVM",
+        "supportedTokens": [
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 1285,
+        "name": "MOONRIVER",
+        "supportedTokens": [
+          {
+            "symbol": "USDT",
+            "address": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDC",
+            "address": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chainId": 5000,
+        "name": "MANTLE",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDT",
+            "address": "0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE",
+            "decimals": 6
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 8217,
+        "name": "KLAYTN",
+        "supportedTokens": [
+          {
+            "symbol": "USDT",
+            "address": "0xceE8FAF64bB97a73bb51E115Aa89C17FfA8dD167",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDC",
+            "address": "0x754288077D0fF82AF7a5317C7CB8c444D421d103",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chainId": 8453,
+        "name": "BASE",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+            "decimals": 6
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 42161,
+        "name": "ARBITRUM",
+        "supportedTokens": [
+          {
+            "symbol": "USDT",
+            "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDC",
+            "address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+            "decimals": 6
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 43114,
+        "name": "AVALANCHE",
+        "supportedTokens": [
+          {
+            "symbol": "USDT",
+            "address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDC",
+            "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+            "decimals": 6
+          },
+          {
+            "symbol": "ETH",
+            "address": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 59144,
+        "name": "LINEA",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff",
+            "decimals": 6
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 81457,
+        "name": "BLAST",
+        "supportedTokens": [
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 167000,
+        "name": "TAIKO",
+        "supportedTokens": [
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          },
+          {
+            "symbol": "USDC",
+            "address": "0x07d83526730c7438048D55A4fc0b850e2aaB6f0b",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chainId": 534352,
+        "name": "SCROLL",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4",
+            "decimals": 6
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "XassetBridge",
+    "logoUrl": "https://storage.googleapis.com/xy-finance-images/XY_icon.png",
+    "supportedChains": [
+      {
+        "chainId": 1,
+        "name": "ETHEREUM",
+        "supportedTokens": [
+          {
+            "symbol": "LOOT",
+            "address": "0x721A1B990699eE9D90b6327FaaD0A3E840aE8335",
+            "decimals": 18
+          },
+          {
+            "symbol": "NUM",
+            "address": "0x3496B523e5C00a4b4150D6721320CdDb234c3079",
+            "decimals": 18
+          },
+          {
+            "symbol": "XY",
+            "address": "0x77777777772cf0455fB38eE0e75f38034dFa50DE",
+            "decimals": 18
+          },
+          {
+            "symbol": "eYe",
+            "address": "0x9A257C90Fa239fBA07771ef7da2d554D148c2E89",
+            "decimals": 18
+          },
+          {
+            "symbol": "BITCOIN",
+            "address": "0x72e4f9F808C49A2a61dE9C5896298920Dc4EEEa9",
+            "decimals": 8
+          },
+          {
+            "symbol": "Mog",
+            "address": "0xaaeE1A9723aaDB7afA2810263653A34bA2C21C7a",
+            "decimals": 18
+          },
+          {
+            "symbol": "PEPE",
+            "address": "0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+            "decimals": 18
+          }
+        ]
+      },
+      { "chainId": 10, "name": "OPTIMISM", "supportedTokens": [] },
+      {
+        "chainId": 25,
+        "name": "CRONOS",
+        "supportedTokens": [
+          {
+            "symbol": "AutoS",
+            "address": "0xae620DC4B9b6e44FBeb4a949F63AC957Cc43b5dD",
+            "decimals": 18
+          },
+          {
+            "symbol": "BLU",
+            "address": "0x1542bA4CA0fb6D1B4476a933B292002fd1959A52",
+            "decimals": 18
+          },
+          {
+            "symbol": "CANDY",
+            "address": "0x06C04B0AD236e7Ca3B3189b1d049FE80109C7977",
+            "decimals": 18
+          },
+          {
+            "symbol": "DBC",
+            "address": "0x730B05d100EeFb92f04016C6c0cF6f2bBB2C3A57",
+            "decimals": 18
+          },
+          {
+            "symbol": "DBF",
+            "address": "0xA2ae6273Dd65F9fA76C3d383eDe9c1261e025DAC",
+            "decimals": 18
+          },
+          {
+            "symbol": "DBX",
+            "address": "0x061E31e7768b39a4282822b65569F8d814dC15f6",
+            "decimals": 18
+          },
+          {
+            "symbol": "LLT",
+            "address": "0x92073dE2706eB8f0265998bCf7B8F751e1349b8F",
+            "decimals": 18
+          },
+          {
+            "symbol": "RIP",
+            "address": "0x34aceA6Cc02578aF041a5E976b7289ca23cCB7A8",
+            "decimals": 18
+          },
+          {
+            "symbol": "SINGLE",
+            "address": "0x0804702a4E749d39A35FDe73d1DF0B1f1D6b8347",
+            "decimals": 18
+          },
+          {
+            "symbol": "STUCK",
+            "address": "0xa0D445dC147f598d63518b5783CA97Cd8Bd9f5Bc",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 56,
+        "name": "BSC",
+        "supportedTokens": [
+          {
+            "symbol": "XY",
+            "address": "0x666666661f9B6D8c581602AAa2f76cbead06C401",
+            "decimals": 18
+          },
+          {
+            "symbol": "eYe",
+            "address": "0x9A257C90Fa239fBA07771ef7da2d554D148c2E89",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 108,
+        "name": "THUNDER_CORE",
+        "supportedTokens": [
+          {
+            "symbol": "XY",
+            "address": "0x333333331193762b9dd5828fA91aFA40d8432B7A",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 137,
+        "name": "POLYGON",
+        "supportedTokens": [
+          {
+            "symbol": "AutoS",
+            "address": "0x925FAdb35B73720238cc78777d02ED4dD3100816",
+            "decimals": 18
+          },
+          {
+            "symbol": "BLU",
+            "address": "0x759d34685468604c695De301ad11A9418e2f1038",
+            "decimals": 18
+          },
+          {
+            "symbol": "CANDY",
+            "address": "0x54E53ed24C12c1d3Df7D653587E2f27d3FbaE3d2",
+            "decimals": 18
+          },
+          {
+            "symbol": "LLT",
+            "address": "0x0DdE4811C4DD68Dc740A1D7997F33fF46CD186a9",
+            "decimals": 18
+          },
+          {
+            "symbol": "XY",
+            "address": "0x55555555A687343C6Ce28C8E1F6641dc71659fAd",
+            "decimals": 18
+          }
+        ]
+      },
+      { "chainId": 196, "name": "X_LAYER", "supportedTokens": [] },
+      {
+        "chainId": 250,
+        "name": "FANTOM",
+        "supportedTokens": [
+          {
+            "symbol": "SINGLE",
+            "address": "0xbDA9DF2cff1d36Ffc05E8e76Ec821B25dB8F3348",
+            "decimals": 18
+          },
+          {
+            "symbol": "XY",
+            "address": "0x444444443B0fcB2733b93F23C910580FBa52FFFA",
+            "decimals": 18
+          }
+        ]
+      },
+      { "chainId": 324, "name": "ZKSYNC", "supportedTokens": [] },
+      { "chainId": 592, "name": "ASTAR", "supportedTokens": [] },
+      { "chainId": 1101, "name": "ZKEVM", "supportedTokens": [] },
+      {
+        "chainId": 5000,
+        "name": "MANTLE",
+        "supportedTokens": [
+          {
+            "symbol": "LOOT",
+            "address": "0x94a42083948d86432246eAD625B30d49014A4BFF",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 6699,
+        "name": "OX",
+        "supportedTokens": [
+          {
+            "symbol": "BITCOIN",
+            "address": "0x55B8261fAE8D71FdaB378f2d472154AF4aEf723e",
+            "decimals": 18
+          },
+          {
+            "symbol": "Mog",
+            "address": "0xfaffa4b4D8538A2ba63bEa39ACbF709E3A972714",
+            "decimals": 18
+          },
+          {
+            "symbol": "PEPE",
+            "address": "0x4aE774bF3dEfF2eaD31D5D51Aa636EE216fBE274",
+            "decimals": 18
+          },
+          {
+            "symbol": "OX_ETH",
+            "address": "0x7e6ecF974310d75325Ab1209253250aC7fCCe09b",
+            "decimals": 18
+          },
+          {
+            "symbol": "OX_USDC",
+            "address": "0xcE8f4E26e2532A78DAcD7A497A1827692b14b31D",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 8453,
+        "name": "BASE",
+        "supportedTokens": [
+          {
+            "symbol": "LOOT",
+            "address": "0x94a42083948d86432246eAD625B30d49014A4BFF",
+            "decimals": 18
+          },
+          {
+            "symbol": "RIP",
+            "address": "0x34aceA6Cc02578aF041a5E976b7289ca23cCB7A8",
+            "decimals": 18
+          },
+          {
+            "symbol": "OX_ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          },
+          {
+            "symbol": "OX_USDC",
+            "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+            "decimals": 6
+          },
+          {
+            "symbol": "STUCK",
+            "address": "0xa0D445dC147f598d63518b5783CA97Cd8Bd9f5Bc",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 10507,
+        "name": "NUMBERS",
+        "supportedTokens": [
+          {
+            "symbol": "NUM",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 42161,
+        "name": "ARBITRUM",
+        "supportedTokens": [
+          {
+            "symbol": "DBC",
+            "address": "0x745f63CA36E0cfDFAc4bf0AFe07120dC7e1E0042",
+            "decimals": 18
+          },
+          {
+            "symbol": "DBF",
+            "address": "0x38A896c29Eb54c566A3fD593f559174520Dc6F75",
+            "decimals": 18
+          },
+          {
+            "symbol": "DBX",
+            "address": "0x0b257fe969d8782fAcb4ec790682C1d4d3dF1551",
+            "decimals": 18
+          }
+        ]
+      },
+      { "chainId": 43114, "name": "AVALANCHE", "supportedTokens": [] },
+      { "chainId": 59144, "name": "LINEA", "supportedTokens": [] },
+      {
+        "chainId": 81457,
+        "name": "BLAST",
+        "supportedTokens": [
+          {
+            "symbol": "LOOT",
+            "address": "0x1C559a960aE5293eA56C40EFC3c0169B413DDcF3",
+            "decimals": 18
+          }
+        ]
+      },
+      { "chainId": 167000, "name": "TAIKO", "supportedTokens": [] },
+      { "chainId": 534352, "name": "SCROLL", "supportedTokens": [] }
+    ]
+  },
+  {
+    "name": "CBridge",
+    "logoUrl": "https://storage.googleapis.com/xy-finance-images/cBridge_Bridge_icon.png",
+    "supportedChains": [
+      {
+        "chainId": 1,
+        "name": "ETHEREUM",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDT",
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "decimals": 6
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          },
+          {
+            "symbol": "WETH",
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 10,
+        "name": "OPTIMISM",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDT",
+            "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+            "decimals": 6
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          },
+          {
+            "symbol": "WETH",
+            "address": "0x4200000000000000000000000000000000000006",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 56,
+        "name": "BSC",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+            "decimals": 18
+          },
+          {
+            "symbol": "USDT",
+            "address": "0x55d398326f99059fF775485246999027B3197955",
+            "decimals": 18
+          },
+          {
+            "symbol": "WETH",
+            "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 137,
+        "name": "POLYGON",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDT",
+            "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "decimals": 6
+          },
+          {
+            "symbol": "WETH",
+            "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 324,
+        "name": "ZKSYNC",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4",
+            "decimals": 6
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          },
+          {
+            "symbol": "WETH",
+            "address": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 592,
+        "name": "ASTAR",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0x6a2d262D56735DbA19Dd70682B39F6bE9a931D98",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chainId": 1101,
+        "name": "ZKEVM",
+        "supportedTokens": [
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          },
+          {
+            "symbol": "WETH",
+            "address": "0x4F9A0e7FD2Bf6067db6994CF12E4495Df938E6e9",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 42161,
+        "name": "ARBITRUM",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDT",
+            "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "decimals": 6
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          },
+          {
+            "symbol": "WETH",
+            "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 43114,
+        "name": "AVALANCHE",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDT",
+            "address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
+            "decimals": 6
+          },
+          {
+            "symbol": "WETH",
+            "address": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 81457,
+        "name": "BLAST",
+        "supportedTokens": [
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          },
+          {
+            "symbol": "WETH",
+            "address": "0x4300000000000000000000000000000000000004",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 534352,
+        "name": "SCROLL",
+        "supportedTokens": [
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          },
+          {
+            "symbol": "WETH",
+            "address": "0x5300000000000000000000000000000000000004",
+            "decimals": 18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CelerCCTP",
+    "logoUrl": "https://storage.googleapis.com/xy-finance-images/Circle_Bridge_icon.png",
+    "supportedChains": [
+      {
+        "chainId": 1,
+        "name": "ETHEREUM",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chainId": 10,
+        "name": "OPTIMISM",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chainId": 137,
+        "name": "POLYGON",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chainId": 8453,
+        "name": "BASE",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chainId": 42161,
+        "name": "ARBITRUM",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chainId": 43114,
+        "name": "AVALANCHE",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+            "decimals": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Synapse",
+    "logoUrl": "https://storage.googleapis.com/xy-finance-images/Synapse_Bridge_icon.png",
+    "supportedChains": [
+      {
+        "chainId": 1,
+        "name": "ETHEREUM",
+        "supportedTokens": [
+          {
+            "symbol": "DAI",
+            "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "decimals": 18
+          },
+          {
+            "symbol": "USDC",
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDT",
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "decimals": 6
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 25,
+        "name": "CRONOS",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chainId": 56,
+        "name": "BSC",
+        "supportedTokens": [
+          {
+            "symbol": "BUSD",
+            "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+            "decimals": 18
+          },
+          {
+            "symbol": "USDC",
+            "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+            "decimals": 18
+          },
+          {
+            "symbol": "USDT",
+            "address": "0x55d398326f99059fF775485246999027B3197955",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 137,
+        "name": "POLYGON",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDT",
+            "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chainId": 8453,
+        "name": "BASE",
+        "supportedTokens": [
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 42161,
+        "name": "ARBITRUM",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDT",
+            "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "decimals": 6
+          },
+          {
+            "symbol": "DAI",
+            "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+            "decimals": 18
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 43114,
+        "name": "AVALANCHE",
+        "supportedTokens": [
+          {
+            "symbol": "USDC.e",
+            "address": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDT.e",
+            "address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chainId": 81457,
+        "name": "BLAST",
+        "supportedTokens": [
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          },
+          {
+            "symbol": "USDB",
+            "address": "0x4300000000000000000000000000000000000003",
+            "decimals": 18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Across",
+    "logoUrl": "https://storage.googleapis.com/xy-finance-images/token-list/Across.png",
+    "supportedChains": [
+      {
+        "chainId": 1,
+        "name": "ETHEREUM",
+        "supportedTokens": [
+          {
+            "symbol": "WETH",
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "decimals": 18
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          },
+          {
+            "symbol": "USDC",
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "decimals": 6
+          },
+          {
+            "symbol": "WBTC",
+            "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+            "decimals": 8
+          },
+          {
+            "symbol": "DAI",
+            "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "decimals": 18
+          },
+          {
+            "symbol": "USDT",
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chainId": 10,
+        "name": "OPTIMISM",
+        "supportedTokens": [
+          {
+            "symbol": "WETH",
+            "address": "0x4200000000000000000000000000000000000006",
+            "decimals": 18
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          },
+          {
+            "symbol": "USDC",
+            "address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+            "decimals": 6
+          },
+          {
+            "symbol": "WBTC",
+            "address": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
+            "decimals": 8
+          },
+          {
+            "symbol": "DAI",
+            "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+            "decimals": 18
+          },
+          {
+            "symbol": "USDT",
+            "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chainId": 137,
+        "name": "POLYGON",
+        "supportedTokens": [
+          {
+            "symbol": "DAI",
+            "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+            "decimals": 18
+          },
+          {
+            "symbol": "USDC",
+            "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+            "decimals": 6
+          },
+          {
+            "symbol": "WBTC",
+            "address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+            "decimals": 8
+          },
+          {
+            "symbol": "USDT",
+            "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chainId": 324,
+        "name": "ZKSYNC",
+        "supportedTokens": [
+          {
+            "symbol": "WETH",
+            "address": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+            "decimals": 18
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          },
+          {
+            "symbol": "USDC",
+            "address": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4",
+            "decimals": 6
+          },
+          {
+            "symbol": "WBTC",
+            "address": "0xBBeB516fb02a01611cBBE0453Fe3c580D7281011",
+            "decimals": 8
+          },
+          {
+            "symbol": "USDT",
+            "address": "0x493257fD37EDB34451f62EDf8D2a0C418852bA4C",
+            "decimals": 6
+          },
+          {
+            "symbol": "DAI",
+            "address": "0x4B9eb6c0b6ea15176BBF62841C6B2A8a398cb656",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 8453,
+        "name": "BASE",
+        "supportedTokens": [
+          {
+            "symbol": "USDC",
+            "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+            "decimals": 6
+          },
+          {
+            "symbol": "WETH",
+            "address": "0x4200000000000000000000000000000000000006",
+            "decimals": 18
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          },
+          {
+            "symbol": "DAI",
+            "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+            "decimals": 18
+          }
+        ]
+      },
+      {
+        "chainId": 42161,
+        "name": "ARBITRUM",
+        "supportedTokens": [
+          {
+            "symbol": "WBTC",
+            "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+            "decimals": 8
+          },
+          {
+            "symbol": "USDC",
+            "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+            "decimals": 6
+          },
+          {
+            "symbol": "WETH",
+            "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+            "decimals": 18
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          },
+          {
+            "symbol": "DAI",
+            "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+            "decimals": 18
+          },
+          {
+            "symbol": "USDT",
+            "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chainId": 59144,
+        "name": "LINEA",
+        "supportedTokens": [
+          {
+            "symbol": "WETH",
+            "address": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f",
+            "decimals": 18
+          },
+          {
+            "symbol": "ETH",
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "decimals": 18
+          },
+          {
+            "symbol": "USDC",
+            "address": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff",
+            "decimals": 6
+          },
+          {
+            "symbol": "USDT",
+            "address": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
+            "decimals": 6
+          },
+          {
+            "symbol": "DAI",
+            "address": "0x4AF15ec2A0BD43Db75dd04E62FAA3B8EF36b00d5",
+            "decimals": 18
+          },
+          {
+            "symbol": "WBTC",
+            "address": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4",
+            "decimals": 8
+          }
+        ]
+      }
+    ]
+  }
+]
