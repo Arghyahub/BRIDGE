@@ -198,9 +198,9 @@ const Home = () => {
                 </button>
               ))}
             </div>
-            <div className="flex flex-row flex-wrap mt-2 w-full">
+            <div className="flex md:flex-row flex-col flex-wrap mt-2 w-full">
               <p className="text-nowrap">From : </p>
-              <div className="flex flex-row gap-3 ml-4">
+              <div className="flex flex-row gap-1 md:gap-3 md:ml-4">
                 <DropDown
                   title="Supported Chains"
                   setState={setSrcChainName}
@@ -225,9 +225,9 @@ const Home = () => {
                 )}
               </div>
             </div>
-            <div className="flex flex-row flex-wrap gap-4 w-full">
+            <div className="flex md:flex-row flex-col flex-wrap gap-4 w-full">
               <p className="text-nowrap">To :</p>
-              <div className="flex flex-row gap-3 ml-5">
+              <div className="flex flex-row gap-1 md:gap-3 md:ml-5">
                 <DropDown
                   title="Supported Chains"
                   State={DestChainName}
@@ -256,9 +256,9 @@ const Home = () => {
             </div>
             <form
               onSubmit={handleQuote}
-              className="flex flex-row items-center gap-4 mt-5 max-w-36"
+              className="flex flex-row flex-wrap justify-center md:justify-normal items-center gap-4 mt-2 md:mt-5 w-full"
             >
-              <label htmlFor="amt" className="text-nowrap">
+              <label htmlFor="amt" className="mr-auto md:mr-0 text-nowrap">
                 Amount :
               </label>
               <input
@@ -266,13 +266,13 @@ const Home = () => {
                 placeholder="Amount"
                 name="amt"
                 defaultValue={1}
-                className="px-2 py-1 rounded-md text-black"
+                className="px-2 py-1 rounded-md w-full md:w-auto text-black"
               />
 
               <button
                 disabled={!SrcChain || !SrcToken || !DestChain || !DestToken}
                 className={cn(
-                  "flex bg-cyan-500 text-white px-2 py-1 rounded-md w-16 mt-2  h-full flex-row justify-center ",
+                  "flex bg-cyan-500 text-white px-2 py-[5px] rounded-md w-16 flex-row justify-center ",
                   {
                     "bg-slate-300 text-slate-700":
                       !SrcChain || !SrcToken || !DestChain || !DestToken,

@@ -58,6 +58,7 @@ router.post("/", async (req: QuoteRequest, res) => {
     });
 
     const data: QuoteResponse = await response.json();
+    // console.log(data);
     if (data.success) {
       res.status(200).json({ data: data.routes });
     } else {
